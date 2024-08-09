@@ -15,6 +15,10 @@ html,body{
 	scroll-behavior: smooth;
 	background-color: #ccc;
 }
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
 
 
 /*Media queries for smartphones*/
@@ -310,6 +314,56 @@ main h3{
 	font-size: 18px; 
 	padding: 5px;
 	border-radius: 15px;
+}
+
+
+#paymentModal{
+	z-index: 99999999;
+}
+
+.payment-container {
+    background-color: #fff;
+    padding: 20px;
+	display: flex;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.payment-body{
+	display: flex;
+}
+
+.payment-body p{
+	color: #161937;
+	font-size: 14px;
+}
+
+.payment-body div{
+	width: 100%;
+}
+
+.payment-container img{
+	width: 100%;
+}
+
+.payment-container div{
+	border: 1px dotted #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.payment-btn{
+	padding: 20px;
+	background: #009545;
+	border: none;
+}
+
+.payment-btn:hover,active,focus{
+	letter-spacing: 2px;
+	background: darkgreen;
+	box-shadow: 0 2px 4px #222;
 }
 
 .about_wrap article{
